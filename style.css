@@ -9,22 +9,13 @@
 }
 .homeContent{
     text-align: center;
-    background-color: brown;
     position: absolute;
-    top: 50%;
-    left: 40%;
-    transform:stranslate(-45%, -45%);
+    top: 40%;
+    left: 50%;
+    transform:translate(-45%, -45%);
     
 
 }
-
-/* .navigation-bar h1{
-    float: left;
-}
-
-.navigation-bar ul{
-    float: right;
-} */
 .navigation-container{
     display: flex;
     justify-content: space-around;
@@ -57,6 +48,13 @@
   button{
       background-color: #6ca6c7;
   }
+  .startFloat{
+    display: flex;
+    
+}
+.product{
+    display: flex;
+}
 .cards{
     display: flex;
     box-sizing: border-box;
