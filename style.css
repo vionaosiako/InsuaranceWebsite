@@ -65,6 +65,10 @@
   } */
   button{
       background-color: #23A6F0;
+      padding: 15px;
+  }
+  .blue{
+      color: #ffffff;
   }
   .startFloat{
     display: flex;
@@ -135,6 +139,11 @@
     height: 600px;
 }
 
+.contactUs{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 footer{
     display: flex;
@@ -146,4 +155,8 @@ footer{
 
 footer li{
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
