@@ -55,7 +55,16 @@
     
   }
   button{
-      background-color: #23A6F0;
+      background-color: #6ca6c7;
+  }
+
+  .blue{
+      background-color: midnightblue;
+      display: flex;
+  }
+
+  .insideBlue{
+      background-color: #ffffff;
   }
 
 footer{
