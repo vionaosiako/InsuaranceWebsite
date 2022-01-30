@@ -1,4 +1,29 @@
 
+*{
+    font-size: monteserrat;
+    margin: 0px;
+    padding: 0px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 .start{
    background-image: url(images/hero-cover.png);
    background-size: cover;
@@ -31,9 +56,28 @@
 }
 
 .startFloat{
+    display: flex;
     position: relative;
     margin-top: -76px;
+    box-sizing: border-box;
+    justify-content: center;
+    
 }
+.color{
+    background-color: #23A6F0;
+}
+
+.colorWhite{
+    background-color: #ffffff;
+}
+.user1{
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px; 
+    margin: 20px;   
+}
+
+
 
 /* .navigation-container{
     display: flex;
@@ -67,16 +111,84 @@
       background-color: #23A6F0;
       padding: 15px;
   }
+  .pricing{
+      text-align: center;
+  }
+  .pricingImages{
+      display: flex;
+  }
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: #23A6F0;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+  .industry{
+      text-align: center;
+  }
   .blue{
       color: #ffffff;
   }
-  .startFloat{
-    display: flex;
-    
-}
+  
 .product{
     display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    
 }
+
 .cards{
     display: flex;
     box-sizing: border-box;
@@ -159,4 +271,5 @@ footer li{
 
 a {
     text-decoration: none;
+    color: #23A6F0;
 }
