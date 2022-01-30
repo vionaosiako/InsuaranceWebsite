@@ -1,5 +1,5 @@
 
-.home{
+.start{
    background-image: url(images/hero-cover.png);
    background-size: cover;
    background-position: center;
@@ -97,6 +97,7 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    
 }
 
 footer li{
