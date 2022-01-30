@@ -77,6 +77,23 @@
     margin: 20px;   
 }
 
+.navigation-bar{
+    display: flex;
+    padding: 10px;
+}
+.navigation-bar ul{
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;   
+
+}
+.navigation-bar li{
+    list-style-type: none;
+    padding: 0px;
+    
+    display: inline;
+
+}
 
 
 /* .navigation-container{
