@@ -59,13 +59,14 @@
   }
 
   .blue{
-      background-color: midnightblue;
-      display: flex;
-  }
+    background-color: midnightblue;
+    display: flex;
+}
 
-  .insideBlue{
-      background-color: #ffffff;
-  }
+.insideBlue{
+    background-color: #ffffff;
+}
+
 
 footer{
     display: flex;
