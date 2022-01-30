@@ -54,6 +54,9 @@
     display: inline;
     
   }
+  button{
+      background-color: #23A6F0;
+  }
 
 footer{
     display: flex;
