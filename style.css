@@ -13,10 +13,29 @@
     top: 40%;
     left: 50%;
     transform:translate(-45%, -45%);
+    color: #ffffff;
     
 
 }
-.navigation-container{
+
+.homeContent button{
+    border-radius: 12px;
+    color: #ffffff;
+    padding: 20px;
+}
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.startFloat{
+    position: relative;
+    margin-top: -76px;
+}
+
+/* .navigation-container{
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -24,8 +43,7 @@
 
 .navigation-bar{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
     
 }
 
@@ -44,9 +62,9 @@
     
     display: inline;
     
-  }
+  } */
   button{
-      background-color: #6ca6c7;
+      background-color: #23A6F0;
   }
   .startFloat{
     display: flex;
@@ -59,12 +77,16 @@
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
       
 }
 .user{
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: solid;
-    padding: 10px;    
+    text-align: center;
+    padding: 5px; 
+    margin: 20px;   
 }
 
   .vectors{
@@ -81,14 +103,36 @@
       background:linear-gradient(75deg, rgba(50, 9, 233, 0.884) 50% , rgb(255, 0, 98) 50% );
   }
 
+  .blueStart{
+    background-color: #252b42;
+  }
+  .blueFlex{
+      display: flex;
+  }
   .blue{
-    background-color: midnightblue;
+    
+    
+    text-align: center;
+}
+.formOne{
+    background-color: #ffffff;
+
+}
+.insideBlue{
+    
     display: flex;
+    position: relative;
+    margin-top: -50px;
+    align-content: center;
+    width: 60%;
+    padding-right: 100px;
+    padding-left: 300px;
+    
+    
 }
 
-.insideBlue{
-    background-color: #ffffff;
-    display: flex;
+.insideBlue img{
+    height: 600px;
 }
 
 
@@ -96,6 +140,7 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    background-color: #E1EBE6;
     
 }
 
