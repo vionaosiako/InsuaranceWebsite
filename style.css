@@ -59,11 +59,12 @@
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-    
+      
 }
 .user{
     border-radius: 10px;
-    border-style: solid;    
+    border-style: solid;
+    padding: 10px;    
 }
 
   .vectors{
