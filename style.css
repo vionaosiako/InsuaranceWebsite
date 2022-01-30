@@ -57,6 +57,17 @@
   button{
       background-color: #6ca6c7;
   }
+.cards{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+}
+.user{
+    border-radius: 10px;
+    border-style: solid;    
+}
+
   .vectors{
       display: flex;
       justify-content: center;
