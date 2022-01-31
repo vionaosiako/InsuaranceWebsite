@@ -24,6 +24,9 @@
     width: 100%;
   }
 }
+.divHeader{
+    background-color: #f6f6f6;
+}
 .start{
    background-image: url(images/hero-cover.png);
    background-size: cover;
@@ -72,7 +75,7 @@
     margin-top: -76px;
     box-sizing: border-box;
     justify-content: center;
-    
+        
 }
 .color{
     background-color: #23A6F0;
@@ -83,8 +86,9 @@
 }
 .user1{
     border-radius: 5px;
+    box-shadow: black;
     text-align: center;
-    padding: 5px; 
+    padding: 20px; 
     margin: 20px;   
 }
 
@@ -139,7 +143,7 @@
   
 
   .price .header {
-    background-color: #111;
+    /* background-color: #111; */
     color: white;
     font-size: 25px;
   }
@@ -169,9 +173,12 @@
   
   /* Change the width of the three columns to 100%
   (to stack horizontally on small screens) */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 400px) {
     .columns {
       width: 100%;
+      flex: 100%;
+      margin-left: 400px;
+      color: #23A6F0;
     }
   }
   .industry{
@@ -296,4 +303,16 @@ footer a:hover {
   }
   .bookingHeader{
       text-align: center;
+  }
+  .blue{
+      height: 400px;
+  }
+  /* .blueRightImage{
+      width: 200px;
+      height: 300px;
+  } */
+  .blueLeft{
+      margin: 50px;
+      text-align: center;
+      align-items: center;
   }
