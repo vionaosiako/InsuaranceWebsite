@@ -200,7 +200,7 @@
 }
 .user{
     border-radius: 5px;
-    border-style: solid;
+    border-style: groove;
     text-align: center;
     padding: 5px; 
     margin: 20px;   
