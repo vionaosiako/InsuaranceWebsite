@@ -41,6 +41,9 @@
     
 
 }
+.checked {
+    color: orange;
+  }
 
 .homeContent button{
     border-radius: 12px;
@@ -269,10 +272,13 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
-a :hover{
-    color: #23A6F0;
-}
+.start a:hover {
+    background-color: #23A6F0;
+  }
 
 footer a{
     color: #23A6F0;
 }
+footer a:hover {
+    background-color: #141313;
+  }
