@@ -4,26 +4,7 @@
     margin: 0px;
     padding: 0px;
 }
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
 .divHeader{
     background-color: #eefcf5;
 }
@@ -122,12 +103,13 @@
   }
   .pricingImages{
       display: flex;
+      justify-content: center;
   }
-  .columns {
+  /* .columns {
     float: left;
     width: 33.3%;
     padding: 8px;
-  }
+  } */
   
   .price {
     list-style-type: none;
@@ -168,12 +150,12 @@
   /* Change the width of the three columns to 100%
   (to stack horizontally on small screens) */
   @media only screen and (max-width: 400px) {
-    .columns {
+    /* .columns {
       width: 100%;
       flex: 100%;
       margin-left: 400px;
       color: #23A6F0;
-    }
+    } */
   }
   .industry{
       text-align: center;
@@ -247,12 +229,9 @@
 .insideBlue{
     
     display: flex;
-    position: relative;
     margin-top: -50px;
     align-content: center;
-    width: 60%;
-    padding-right: 100px;
-    padding-left: 300px;
+    justify-content: center;
     
     
 }
@@ -323,3 +302,49 @@ footer a:hover {
   .columnsMiddle{
       background-color: #252b42;
   }
+
+  .blueRight{
+      height: 250px;
+
+  }
+
+@media only screen and (max-width: 800px) {
+    .product {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .startFloat {
+        flex-wrap: wrap;
+    }
+    .insideBlueImage{
+        display: none;
+    }
+    footer{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    footer div{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1122px){
+    .cards{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 861px) {
+    .pricingImages{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .blueRight{
+        display: none;
+    }
+}
